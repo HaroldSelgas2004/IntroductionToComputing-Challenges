@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}   
+
+.main{
+     width: 100%;
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(35, 22, 0, 0.479)50%), url('RAM.jpg');
+     background-image:  center;
+     background-size: cover;
+     height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 250px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color:#FFA500;
+    font-size: 30px;
+    font-family: Georgia;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 35px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #10edf9;
+    font-family: Georgia;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: #FFA500
+}
+
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 280px;
+    
+}
+
+.Search{
+    font-family: Arial;
+    font-weight: 400px;
+    width: 170px;
+    height: 45px;
+    border: none;
+    background:transparent;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: rgb(0, 255, 225);
+    border-left: #FFA500;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+.btn{
+    background-color: #03747a;
+    opacity: 70%;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-decoration: solid;
+    color:rgb(255, 255, 255);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #FFA500;
+    position: relative;
+}
+
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:'Times New Roman';
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: #FFA500;
+    opacity: 80%;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.cn:hover{
+    background-color: #1ffff0;
+}
+
+.content span{
+    color: #FFA500;
+
+}
+
+.form{
+    width: 249px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(112, 112, 112, 0.8)50%,rgba(115, 115, 115, 0.8)50%);
+    position: absolute;
+    top: -120px;
+    left: 1020px;;
+    border-radius: 10px;
+
+}
+
+.form h2{
+    width: 230px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    background-color: #ff7200;
+    border-radius:  10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input{
+    width: 245px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    font-family: 'Times New Roman';
+    background-color: rgb(255, 255, 255);
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(0, 195, 255);
+    font-family: 'Times New Roman';
+}
+
+.btnn{
+    width: 250px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnn:hover{
+    background: #1ffff0;
+    color:#ff7200;
+   
+}
+ 
+.btnn a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color:#ff7200
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom:  10px;
+
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transform: ease ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
